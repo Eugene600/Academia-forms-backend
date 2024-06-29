@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #installed apps
+    'rest_framework',
     'forms',
 ]
 
@@ -67,6 +69,8 @@ TEMPLATES = [
         },
     },
 ]
+
+
 
 WSGI_APPLICATION = 'Academia_foms.wsgi.application'
 
